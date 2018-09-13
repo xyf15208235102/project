@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>register</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/register.css">
+		
+		
+	</head>
+	<body>
+		<header>
+			<div class="header_wrap">
+				<div class="logo">
+					<a href="../index1.html"></a>
+				</div>
+				<div class="nav">
+					<ul class="nav_ul">
+						<li class="nav_ul_li">
+							<a href="javascript:;" class="nav_ul_li_a">首页</a>
+						</li>
+						<li class="nav_ul_li cake" id="cake">
+							<a href="javascript:;" class="nav_ul_li_a">蛋糕店</a>
+							<ul >
+								<li><a href="javascript:;">芝士系列</a></li>
+								<li><a href="javascript:;">巧克力系列</a></li>
+								<li><a href="javascript:;">拿破仑系列</a></li>
+								<li><a href="javascript:;">慕斯系列</a></li>
+								<li><a href="javascript:;">乳脂系列</a></li>
+								<li><a href="javascript:;">选拼系列</a></li>
+							</ul>
+						</li>
+						<li class="nav_ul_li new">
+							<img src="img/icon_new.gif" />
+							<a href="javascript:;" class="nav_ul_li_a">特惠商城</a>
+						</li>
+						<li class="nav_ul_li inlife">
+							<a href="javascript:;" class="nav_ul_li_a">INLIFE</a>
+							<ul >
+								<li><a href="javascript:;">下午茶</a></li>
+								<li><a href="javascript:;">月饼</a></li>
+							</ul>
+						</li>
+						<li class="nav_ul_li qiye">
+							<a href="javascript:;" class="nav_ul_li_a">企业专区</a>
+							<ul >
+								<li><a href="javascript:;">试吃申请</a></li>
+								<li><a href="javascript:;">企业VIP登录</a></li>
+							</ul>
+						</li>
+						<li class="nav_ul_li">
+							<a href="javascript:;" class="nav_ul_li_a">卡卷兑换</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div id="auth" class="auth">
+					<a href="login.html" class="login" id="login">登录</a>
+					<span>|</span>
+					<a href="register.html" class="register" id="register">注册</a>
+				</div>
+				
+				<div id="basket" class="basket">
+					<div class="basket_left">
+						<span class="cart_span" id="cart_span">0</span>
+						<a href="jiesuan.html" class="cart" id="cart"></a>
+					</div>
+					<div class="basket_right">
+						<a href="#" class="city" id="city">成都</a>
+					</div>
+					
+				</div>
+			</div>
+			
+		</header>
+		
+		<div class="register_main">
+			<div class="register_wrap">
+				<div class="register_wrap_left">	
+				</div>
+				<form class="form_login" id="form_login" action="login.html" >
+					<p class="form_head">REGISTER</p>
+					<div >
+						<input type="text" class="user" id="user" value="" placeholder="请输入用户名"/>
+						<span >用户名不能包含特殊字符或已存在</span>
+					</div>
+					<div >
+						<input type="password" class="pwd" id="pwd" value="" placeholder="请输入密码"/>
+						<span >密码需要六位以上</span>
+					</div>
+					<div >
+						<input type="password" class="okpwd" id="okpwd" value="" placeholder="确认密码"/>
+						<span >两次密码输入不一致</span>
+					</div>
+					<div >
+						<input type="text" class="email" id="email" value="" placeholder="请输入邮箱"/>
+						<span >邮箱格式不正确</span>
+					</div>
+					<div >
+						<input type="text" class="tel" id="tel" value="" placeholder="请输入电话号码"/>
+						<span >请输入正确的电话号码</span>
+					</div>
+					
+					<button type="submit" id="btnRegister">注册</button>
+					<div class="vip">
+						<p class="yizhuce">已有账号</p>
+						<a href="javascript:;">登录</a>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_wrap">
+				<div class="footer_logo"></div>
+				<div class="footer_content">
+					<p class="footer_link">
+                        <a href="javascript:;">配送范围</a><span>|</span>
+                        <a href="javascript:;">帮助中心</a><span>|</span>
+                        <a href="javascript:;">品牌故事</a><span>|</span>
+                        <a href="javascript:;">关于我们</a><span>|</span>
+                        <a href="javascript:;">招贤纳士</a>
+                    </p>
+                    <p class="hotline">
+                        <span>客服热线：</span>
+                        <span class="tel">400-921-5757</span>
+                    </p>
+				</div>
+				<div class="code">
+					<p>微信订购更方便</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="links">
+			<p>Copyright &copy;2012-2017 上海印克电子商务股份有限公司 版权所有 沪ICP备12045835 沪公网安备31010802001150</p>
+		</div>
+		<!-- <script src="../js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/tools.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="../js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/tools.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/addCart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+</html>

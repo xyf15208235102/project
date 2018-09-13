@@ -1,0 +1,96 @@
+.login_main{
+	height: 760px;
+	/*background-color: green;*/
+	overflow: hidden;
+}
+.login_main .login_wrap{
+	width: 1200px;
+	height: 520px;
+ 	
+    margin: 0 auto;
+    margin-top: 80px;
+    /*background-color: pink;*/
+}
+.login_main .login_wrap .login_wrap_left{
+	width: 650px;
+	height: 520px;
+	float: left;
+	border-right: 1px solid #c8c8c8;
+	background-image:url(../img/login_left.jpg);
+}
+.login_main .login_wrap form{
+	width: 392px;
+	height: 386px;
+	float: left;
+	/*border: 1px solid red;*/
+	margin: 54px 0 0 98px;
+	
+}
+.login_main .login_wrap form .form_head{
+	font-size: 40px;
+    line-height: 32px;
+    color: #d6dce2;
+    text-align: center;
+}
+.login_main .login_wrap form .user{
+	width: 390px;
+    height: 50px;
+    background-color: #fafafa;
+    border: 1px solid #929eab;
+    border-radius: 4px;
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 50px;
+    color: #505050;
+    text-indent: 1em;
+    outline: none;
+}
+.login_main .login_wrap form .pwd{
+	width: 390px;
+    height: 50px;
+    background-color: #fafafa;
+    border: 1px solid #929eab;
+    border-radius: 4px;
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 50px;
+    color: #505050;
+    text-indent: 1em;
+    outline: none;
+ 
+}
+.login_main .login_wrap form .forget a{
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 40px;
+    display: block;
+    color: #1478be;
+}
+.login_main .login_wrap form .forget a:hover{
+	text-decoration: underline;
+}
+.login_main .login_wrap form button{
+	width: 390px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #45515e;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 52px;
+    color: #fff;
+    background-color: #45515f;
+    text-align: center;
+}
+.login_main .login_wrap form .vip span{
+	color: #505050;
+	
+}
+.login_main .login_wrap form .vip a{
+	color: #1478be;
+	
+}
+.login_main .login_wrap form .vip a:hover{
+	text-decoration: underline;
+}
